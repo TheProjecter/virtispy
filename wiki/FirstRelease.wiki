@@ -3,7 +3,7 @@
 = Introduction =
 
 VIRTISpy is a data reader for the data cubes produced by VIRTIS on board of the ESA mission Venus Express.<br />
-The VIRTIS data are in PDS format and they are available in the ESA PSA ftp server : [ftp://psa.esac.esa.int/pub/mirror/VENUS-EXPRESS/VIRTIS/]
+The VIRTIS data are in PDS format and they are available in the  [ftp://psa.esac.esa.int/pub/mirror/VENUS-EXPRESS/VIRTIS/ ESA PSA ftp server]
 
 
 = Details =
