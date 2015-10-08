@@ -1,0 +1,17 @@
+# Introduction #
+
+VIRTISpy is a data reader for the data cubes produced by VIRTIS on board of the ESA mission Venus Express.<br />
+The VIRTIS data are in PDS format and they are available in the  [ESA PSA ftp server](ftp://psa.esac.esa.int/pub/mirror/VENUS-EXPRESS/VIRTIS/)
+
+
+# Details #
+VIRTISpy is a python class.
+```
+cb=VIRTISpy('VV0000_00.QUB')
+```
+Follow a list of available methods:
+  * **headerValue(_key_)**: return the value of the PDS label for the PDS the selected PDS keyword;
+  * **getBand(_band_)**: return a float matrix corresponding to the selected band;
+  * **getSpectrum(_sample_,_line_)**: return an array containing the VIRTIS spectrum for the pixel at a specific sample and line;
+  * **getWave()**: return an array containing the wavelength of each VIRTIS band;
+  * **getHK(_key_,_line_)**: return the housekeeping value for the specific key and a specific line.
